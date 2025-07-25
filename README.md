@@ -46,7 +46,7 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-> 'That’s it. Everything is installed and running as services!'
+> *That’s it. Everything is installed and running as services!*
 
 `setup.sh` will put project in path: `/opt/Rime-AI-Orchestration`
 
