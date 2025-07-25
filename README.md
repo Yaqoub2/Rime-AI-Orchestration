@@ -153,4 +153,4 @@ Replace `sample.mp4` with your own video just make sure its name is `sample.mp4`
 <br>
 
     
-**Built for**&nbsp;&nbsp;&nbsp;<img width="128" height="22" alt="image" src="https://github.com/user-attachments/assets/a6a4e585-9a87-4c6b-a0f2-de7e5ed3d050" />
+### **Built for**&nbsp;&nbsp;&nbsp;<img width="128" height="22" alt="image" src="https://github.com/user-attachments/assets/a6a4e585-9a87-4c6b-a0f2-de7e5ed3d050" />
