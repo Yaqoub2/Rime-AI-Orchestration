@@ -138,7 +138,7 @@ journalctl -u yolo-app.service -f
 journalctl -u mock-api.service -f
 journalctl -u virtualcam.service -f
 ```
-exit with ctrl + c
+ exit with ctrl + c
 
 ## 🛠️ Want to Customize?
 
@@ -150,7 +150,13 @@ Replace `sample.mp4` with your own video just make sure its name is `sample.mp4`
 - Used `ffmpeg` for feeding video instead of `OBS` which requires GUI
 - Make sure `/dev/video10` is not in use by another process
 - You may need to unload and load the `v4l2loopback` module manually if setup fails
-<br>
 
+## ⚖️ Scalability & Expansion 
+- **Multi-Camera Support:** Use multiple instances of `app.py` (or implement multithreading) to handle different `/dev/video*` sources and separate Redis keys/databases.  
+- **Multi-Branch:** Each branch or site can run its own stack and forward detections to a central API endpoint.  
+- **Containerization:** Package the app, Redis, and FastAPI into containers for easy deployment using Docker,.deb or Ansible-playbook.  
+- **Cloud Forwarding:** Replace mock_api.py with a real-time cloud ingestion pipeline (e.g., MQTT, Kafka, or cloud functions).  
+- **Storage:** Add cloud or local disk storage for permenant storing of annotated snapshots.  
+<br>
     
 ### **Built for**&nbsp;&nbsp;&nbsp;<img width="128" height="22" alt="image" src="https://github.com/user-attachments/assets/a6a4e585-9a87-4c6b-a0f2-de7e5ed3d050" />
